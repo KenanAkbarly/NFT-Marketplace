@@ -2,9 +2,13 @@
 
 
 @import './utils/variables','./utils/mixin','./utils/extend';
+body{
+    background-color: #2B2B2B;
 
+}
 
 @import './layout/navigation' , './layout/footer';
 
 
 // burda ise sira ile home ve artist scss import olunacaq
+@import './pages/home', './pages/artist'
