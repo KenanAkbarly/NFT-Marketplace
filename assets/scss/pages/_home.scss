@@ -514,4 +514,642 @@ h3{
     }
     }
 }
+#ali_section_browse_categories{
+    padding-bottom: 80px;
+    @include for-size(tablet){
+        padding: 40px 0px 40px 0px;
+        .ali_section_contanier{
+            width: 690px;
+            margin: o auto;
+        }
+        .ali_section_browse_categories_title{
+            margin: 40px 0px;
+            h1{
+                font-size: 28px;
+                width: 100%;
+            }
+        }
+        .ali_section_browse_categories_cards{
+            width: 100%;
+            // margin-bottom: 40px;
+            .ali_section_browse_categories_cards_first-four{
+                width: 100%;
+                .ali_section_browse_categories_cards_art{
+                    height: 209px;
+                    width: 150px;
+                    flex: none;
+                    img{
+                        height: 142px;
+                        width: 100%;
+                    }
+                    .ali_section_browse_categories_cards_text{
+                        p{
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+            .ali_section_browse_categories_cards_second-four{
+                width: 100%;
+                .ali_section_browse_categories_cards_art{
+                    height: 231px;
+                    width: 150px;
+                    flex: none;
+                    img{
+                        height: 142px;
+                        width: 100%;
+                    }
+                    .ali_section_browse_categories_cards_text{
+                        gap: 25px;
+                        p{
+                            font-size: 16px;
+                            width: 110px;
+                            height: 44px;
+                            line-height: 22.4px;
 
+                        }
+                    }
+                }
+                
+            }
+
+        }
+    }
+    @include for-size(phone){
+        .ali_section_contanier{
+            width: 315px;
+            margin: o auto;
+        }
+        .ali_section_browse_categories_title{
+            width: 100%;
+            padding: 0px;
+        }
+        .ali_section_browse_categories_cards{
+            width: 100%;
+            margin-top:0px;
+            .ali_section_browse_categories_cards_first-four{
+                width: 100%;
+                display: flex;
+                flex-wrap:wrap ;
+                .ali_section_browse_categories_cards_art{
+                    width: 147.5px;
+                    height: 209px;
+                    margin-bottom: 20px;
+                    img{
+                        width: 100%;
+                        height: 142px;
+                    }
+                }
+            }
+            .ali_section_browse_categories_cards_second-four{
+                width: 100%;
+                margin: 0px;
+                display: flex;
+                flex-wrap:wrap ;
+                .ali_section_browse_categories_cards_art{
+                    width: 147.5px;
+                    height: 209px;
+                    margin-bottom: 20px;
+                    img{
+                        width: 100%;
+                        height: 142px;
+                    }
+                }
+            }
+        }
+    }
+}
+.ali_section_contanier{
+    width: $desktop-container;
+    margin: 0 auto;
+      // BROWSE CATEGORIES
+      .ali_section_browse_categories_title{
+        margin-top:80px ;
+        gap: 10px;
+        h1{
+            font-weight: 600;
+            font-size: 38px;
+            line-height: 45.6px;
+            color: $txt_color_light;
+        }
+    }
+    .ali_section_browse_categories_cards{
+        margin-top: 60px;
+        display: flex;
+        // flex-wrap: wrap;
+        flex-direction: column;
+        .ali_section_browse_categories_cards_second-four{
+            display: flex;
+            margin-top: 30px;
+            justify-content: space-between;
+        }
+        .ali_section_browse_categories_cards_art{
+            width:240px;
+            height: 316px;
+            // margin-right: 30px;
+            border-radius: 20px;
+            background-color:#3B3B3B;
+            transition: 0.3s;
+            &:hover{
+                transform: scale(0.95);
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            .ali_section_browse_categories_cards_text{
+                height: 76px;
+                padding: 20px 30px 25px 30px; 
+                p {
+                    font-weight: 600;
+                    font-size: 22px;
+                    line-height: 30.8px;
+                    color: white;
+                }
+        }
+        }
+        .ali_section_browse_categories_cards_first-four{
+            display: flex;
+            justify-content: space-between;
+            
+        }
+
+    }
+
+}
+    // DISCOVER MORE
+
+    .ali_section_discover_more_cards_btn_phone{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+         width: 315px;
+         height: 60px;
+         gap:12px;
+         border: 2px solid #A259FF;
+         border-radius: 20px;
+         background-color: transparent;
+         padding: 0px 50px 0px 50px;
+         p{
+             font-weight: 600;
+             font-size: 16px;
+             color: #FFFFFF;
+         }
+         .img{
+            width: 20px;
+         }
+        visibility: hidden;
+
+    }
+
+#ali_section_discover_more{
+    padding: 40px 0px 60px 0px;
+    @include for-size(tablet){
+        .ali_section_contanier{
+            width: 690px;
+            margin: 0 auto;
+        }
+        .ali_section_discover_more_head{
+            width: 100%;
+            padding-top:40px;
+            .ali_section_discover_more_head_text{
+                width: 403px;
+                h3{
+                    font-size: 28px;
+                }
+                p{
+                    font-size: 16px;
+                    display: flex;
+                    align-items: flex-end;
+                }
+            }
+            button{
+                width: 187px;
+                height: 60px;
+            }
+        }
+        .ali_section_discover_more_cards{
+            width: 100%;
+            margin-top:40px ;
+            margin-bottom: 80px;
+            padding: 0;
+            gap: 30px;
+            .thirdcard{
+                display: none;
+            }
+
+        }
+    }
+
+    @include for-size(phone){
+        #ali_section_discover_more{
+            padding: 40px 0px 60px 0px;
+        }
+        .ali_section_discover_more_head{
+            button{
+                display: none;
+            }
+        }
+        .ali_section_discover_more_cards_btn_phone{
+            // display: block;
+            visibility: visible;
+        }
+        .ali_section_contanier{
+            width: 315px;
+            margin: 0 auto;
+        }
+        .ali_section_discover_more_head{
+            width: 100%;
+            
+            button{
+                bottom: 40px;
+            }
+        }
+        .ali_section_discover_more_cards{
+            margin-bottom: 40px;
+            width: 100%;
+            column-gap: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            
+            .ali_section_discover_more_cards_firstCard{
+                width: 100%;
+                height: 402px;
+                .ali_section_discover_more_cards_fristPic{
+                    width: 100%;
+                    height: 238px;
+                }
+            }
+            .thirdcard{
+                display: block;
+            }
+        }
+    }
+}
+
+
+.ali_section_discover_more_head{
+        transition: 0.3s;
+        padding-top: 80px;
+        display: flex;
+        justify-content: space-between;
+         flex-direction: row;
+         align-items: flex-end;
+
+
+        .ali_section_discover_more_head_text{
+             width: 763px;
+             h3{
+                 font-weight: 600;
+                 font-size: 38px;
+                 color: #FFFFFF;
+                 line-height: 45.6px;
+                 margin-bottom: 10px;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 22px;
+                    line-height: 35.2px;
+                    color: #FFFFFF;   
+                }
+
+            }
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               width: 187px;
+               height: 60px;
+               border-radius: 20px;
+               border: 2px solid #A259FF;
+               gap: 12px;
+               border-color: $border_color;
+               background-color: transparent;
+               &:hover{
+                   @extend %Hover
+
+               }
+               p{
+                color: #FFFFFF;
+                font-weight: 600;
+                font-size: 16px;
+               }
+               img{
+                width: 20px;
+                height: 20px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+               }
+           }
+
+
+}
+
+.ali_section_discover_more_cards{
+        margin-top: 60px;
+        // padding-bottom: 80px;
+        display: flex;
+        justify-content: space-between;
+       
+        
+        
+        .ali_section_discover_more_cards_firstCard{
+            width: 330px;
+            height: 469px;
+            border-radius: 20px;
+            transition: 0.3s;
+            background-color: $secondary_bg-color;
+            &:hover{
+                @extend %Hover
+            }
+            img{
+                width: 100%;
+                height: 296px;
+
+            }
+            .ali_section_discover_more_cards_firstCard_bottom{
+                height: 173px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                .ali_section_discover_more_cards_firstCard_bottom_user{
+                      width: 270px;
+                      margin: 0 auto;
+                      margin-top: 20px;
+                   
+                    h5{
+                        font-weight:600 ;
+                        font-size: 22px;
+                        color: #FFFFFF;
+                        line-height: 30.8px;
+                        width: 270px;
+                        margin: 0 auto;
+                    }
+                }
+                .ali_section_discover_more_cards_firstCard_bottom_user_nick{
+                    display: flex;
+                    align-items: center;
+                    width: 270px;
+                    margin: 0 auto;
+                    margin-top: 5px;
+                    img{
+                        width: 24px;
+                        height: 24px;
+                    }
+                    span{
+                        margin-left: 12px;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #FFFFFF;
+                    }
+                    
+                    
+                }
+                .ali_section_discover_more_cards_firstCard_bottom_value{
+                    width: 270px;
+                    margin: 0 auto;
+                    margin-top:25px ;
+                    margin-left: 30px;
+                    display: flex;
+                    justify-content: space-between;
+                    .ali_section_discover_more_cards_firstCard_bottom_value_left{
+                        width: 135px;
+                        
+                    }
+                        p:first-child{
+                            margin-bottom: 8px;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 13.2px;
+                            color:  #858584; 
+                        }
+                        p:last-child{
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 22.4px;
+                            color: #FFFFFF;
+                        }
+                }
+            }
+        }
+}  
+
+// MAGIC MUSH
+#ali_section_magic_mush{
+        background-image: url("../scss/pages/nft-background.png");
+        background-position: 50% 50%;
+        background-size: cover;
+        // padding: 360px 195px 60px 195px;
+        object-fit: cover;
+        align-self: stretch;
+        mix-blend-mode: normal;
+        width: 100%;
+         height: 640px;
+        display: flex;
+        align-items: flex-end;
+        background-color: rgba(162, 89, 255,0.4);
+
+       .ali_section_magic_mush_main{    
+        height: 220px;
+        width: 1050px ;
+        padding-bottom:60px ;
+        display: flex;
+        justify-content: space-between;
+         align-items: flex-end;
+
+        
+        .ali_section_magic_mush_main_left{
+            height: 220px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .ali_section_magic_mush_main_left_usercard{
+                width: 151px;
+                height: 44px;
+                border-radius: 20px;
+                background-color:  #3B3B3B;
+                gap: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                span{
+                    color: #FFFFFF;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                }
+                img{
+                    width: 24px;
+                }
+                
+            }
+
+            h2{
+                font-weight: 600;
+                font-size: 51px;
+                line-height: 110%;
+                color: $txt_color_light;
+            }
+            button{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                background-color: $txt_color_light;
+                width: 198px;
+                height: 60px;
+                border-radius: 20px;
+                gap: 12px;
+                border: none;
+                &:hover{
+                    @extend %Hover
+                }
+                img{
+                    width: 20px;
+                    height: 20px;
+                }
+                span{
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 22.4px;
+                    text-align: center;
+                }
+                
+            }
+        }
+        .ali_section_magic_mush_main_time{
+            width: 295px;
+            height: 144px;
+            border-radius: 20px;
+            gap: 10px;
+            background-color:  rgba(59, 59, 59, 0.5);
+            
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .ali_section_magic_mush_main_time_clock_text{
+                display: flex;
+                width: 235px;
+                margin: 0 auto;
+                p{         
+                    display: flex;
+                    justify-content: start;
+                    font-weight: 400;
+                    font-size: 12px;
+                    line-height: 13.2px;
+                    color: #FFFFFF;
+                }
+            }
+            .ali_section_magic_mush_main_time_clock{
+                display: flex;
+                width: 235px;
+                margin: 0 auto;
+                justify-content: space-between;
+                h4{
+                     display: flex;
+                     justify-content: center;
+                    width: 18px;
+                    height: 39px;
+                    font-weight: 400;
+                    font-size: 28px;
+                    line-height: 140%;
+                    color: #FFFFFF;
+                }
+                #ali_section_magic_mush_main_time_clock_hours{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    height: 61px;
+                    h3{
+                        font-weight: 700;
+                        font-size: 38px;
+                        line-height: 120%;
+                        color: #FFFFFF;
+                    }
+                    span{
+                        font-weight: 400;
+                        font-size: 12px;
+                        color: #FFFFFF;
+                        line-height: 110%;
+                    }
+                    
+
+                }
+            }
+            
+        }
+       }
+
+       @include for-size(tablet){
+        .ali_section_contanier{
+            width: 670px;
+            margin: 0 auto;
+            
+        }
+        .ali_section_magic_mush_main{
+            width: 670px;
+            .ali_section_magic_mush_main_left{
+                width: 670px !important;
+                height: 210px;
+                h2{
+                    font-size: 38px;
+                }
+            }
+        }
+       }
+
+
+       
+    }
+    .timeClock{
+        display: none !important;
+        
+    }
+    @include for-size(phone){
+        .button_phone{
+            width: 315px !important;
+        }
+        .ali_section_magic_mush_main_time{
+            width: 315px !important;
+        }
+        .ali_section_magic_mush_main_left_usercard{
+        }
+        .ali_section_contanier{
+            width: 315px !important;
+            margin: 0 auto;
+            
+        }
+        .ali_section_magic_mush_main{
+            width: 315px !important;
+            .ali_section_magic_mush_main_left{
+                width: 315px !important;
+                height: 210px;
+                h2{
+                    font-size: 38px;
+                    width: 315px !important;
+                }
+            }
+        }
+        .ali_section_magic_mush_main_left{
+            width: 315px ;
+             margin: 0 auto ;
+            .ali_section_magic_mush_main{
+                width: 100% ;
+                
+            }
+        }
+        .timeClockBig{
+         display: none !important;
+        }
+        .timeClock{
+            display: block !important ;
+        }
+        .ali_section_magic_mush_main_left{
+            height: 430px !important;
+          h2{
+            width: 315px !important;
+          }  
+        }
+        
+}
