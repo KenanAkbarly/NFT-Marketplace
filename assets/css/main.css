@@ -346,3 +346,144 @@ nav .nav__container .nav__right .nav__btn:hover {
     height: 800px !important;
   }
 }
+
+.navigation__page .navigation__page-container {
+  width: 1050px;
+  display: flex;
+  justify-content: space-between;
+  color: #FFFFFF;
+  margin: 0 auto;
+  padding: auto;
+  margin-top: 80px;
+  margin-bottom: 160px;
+}
+.navigation__page .navigation__page-container .navigation__page-left {
+  width: 510px;
+  height: 544px;
+}
+.navigation__page .navigation__page-container .navigation__page-left .discover-digital-art {
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 110%;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.navigation__page .navigation__page-container .navigation__page-left .navigation__page-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.navigation__page .navigation__page-container .navigation__page-left .navigation__page-right__nonefirst {
+  display: none;
+}
+.navigation__page .navigation__page-container .navigation__page-left .navigation__page-btn button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #FFFFFF;
+  transition: all 0.3s ease;
+  width: 224px;
+  height: 60px;
+  background: #A259FF;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 30px;
+}
+.navigation__page .navigation__page-container .navigation__page-left .navigation__page-btn button:hover {
+  transform: scale(0.95);
+}
+.navigation__page .navigation__page-container .navigation__page-left .navigation__page-btn button svg {
+  margin-right: 14px;
+}
+.navigation__page .navigation__page-container .navigation__page-left .navigation__page-info {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation__page .navigation__page-container .navigation__page-left .navigation__page-info .info .bold {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 140%;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+}
+.navigation__page .navigation__page-container .navigation__page-left .navigation__page-info .info .small {
+  font-weight: 400;
+  font-size: 23.99px;
+  line-height: 160%;
+  text-transform: capitalize;
+}
+.navigation__page .navigation__page-container .navigation__page-right {
+  width: 510px;
+  height: 544px;
+}
+@media screen and (max-width: 1280px) {
+  .navigation__page .navigation__page-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 690px;
+    margin: 0 auto;
+  }
+  .navigation__page .navigation__page-container .navigation__page-left {
+    width: 330px;
+    margin: 0 auto;
+  }
+  .navigation__page .navigation__page-container .navigation__page-left .discover-digital-art {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 120%;
+  }
+  .navigation__page .navigation__page-container .navigation__page-left .navigation__page-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+  .navigation__page .navigation__page-container .navigation__page-left .navigation__page-btn {
+    width: 224px;
+    height: 60px;
+  }
+  .navigation__page .navigation__page-container .navigation__page-left .navigation__page-info {
+    margin-top: 20px;
+    width: 330px;
+    height: 57px;
+  }
+  .navigation__page .navigation__page-container .navigation__page-right {
+    width: 310px;
+    height: 310px;
+  }
+}
+@media screen and (max-width: 830px) {
+  .navigation__page .navigation__page-container {
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 315px;
+    margin: 0 auto;
+  }
+  .navigation__page .navigation__page-right__nonesecond {
+    display: none;
+  }
+  .navigation__page .navigation__page-btn button {
+    width: 315px !important;
+    height: 60px;
+  }
+  .navigation__page .navigation__page-info {
+    margin-top: 20px;
+    width: 315px;
+    height: 57px;
+  }
+  .navigation__page .navigation__page-right__nonefirst {
+    display: block !important;
+  }
+  .navigation__page .navigation__page-left {
+    width: 510px;
+    height: 800px !important;
+  }
+}
