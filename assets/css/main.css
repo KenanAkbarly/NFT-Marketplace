@@ -107,6 +107,11 @@ input {
 body {
   font-family: 'Work Sans', sans-serif; }
 
+.ali_section_discover_more_head button:hover, .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard:hover, #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left button:hover {
+  transform: scale(0.95);
+  transition: 0.3s;
+  cursor: pointer; }
+
 body {
   background-color: #2B2B2B; }
 
@@ -693,6 +698,464 @@ body {
         font-weight: 600;
         font-size: 16px;
         line-height: 140%; } }
+
+#ali_section_browse_categories {
+  padding-bottom: 80px; }
+  @media screen and (max-width: 1280px) {
+    #ali_section_browse_categories {
+      padding: 40px 0px 40px 0px; }
+      #ali_section_browse_categories .ali_section_contanier {
+        width: 690px;
+        margin: o auto; }
+      #ali_section_browse_categories .ali_section_browse_categories_title {
+        margin: 40px 0px; }
+        #ali_section_browse_categories .ali_section_browse_categories_title h1 {
+          font-size: 28px;
+          width: 100%; }
+      #ali_section_browse_categories .ali_section_browse_categories_cards {
+        width: 100%; }
+        #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_first-four {
+          width: 100%; }
+          #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_first-four .ali_section_browse_categories_cards_art {
+            height: 209px;
+            width: 150px;
+            flex: none; }
+            #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_first-four .ali_section_browse_categories_cards_art img {
+              height: 142px;
+              width: 100%; }
+            #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_first-four .ali_section_browse_categories_cards_art .ali_section_browse_categories_cards_text p {
+              font-size: 16px; }
+        #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_second-four {
+          width: 100%; }
+          #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_second-four .ali_section_browse_categories_cards_art {
+            height: 231px;
+            width: 150px;
+            flex: none; }
+            #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_second-four .ali_section_browse_categories_cards_art img {
+              height: 142px;
+              width: 100%; }
+            #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_second-four .ali_section_browse_categories_cards_art .ali_section_browse_categories_cards_text {
+              gap: 25px; }
+              #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_second-four .ali_section_browse_categories_cards_art .ali_section_browse_categories_cards_text p {
+                font-size: 16px;
+                width: 110px;
+                height: 44px;
+                line-height: 22.4px; } }
+  @media screen and (max-width: 830px) {
+    #ali_section_browse_categories .ali_section_contanier {
+      width: 315px;
+      margin: o auto; }
+    #ali_section_browse_categories .ali_section_browse_categories_title {
+      width: 100%;
+      padding: 0px; }
+    #ali_section_browse_categories .ali_section_browse_categories_cards {
+      width: 100%;
+      margin-top: 0px; }
+      #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_first-four {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap; }
+        #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_first-four .ali_section_browse_categories_cards_art {
+          width: 147.5px;
+          height: 209px;
+          margin-bottom: 20px; }
+          #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_first-four .ali_section_browse_categories_cards_art img {
+            width: 100%;
+            height: 142px; }
+      #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_second-four {
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-wrap: wrap; }
+        #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_second-four .ali_section_browse_categories_cards_art {
+          width: 147.5px;
+          height: 209px;
+          margin-bottom: 20px; }
+          #ali_section_browse_categories .ali_section_browse_categories_cards .ali_section_browse_categories_cards_second-four .ali_section_browse_categories_cards_art img {
+            width: 100%;
+            height: 142px; } }
+
+.ali_section_contanier {
+  width: 1050px;
+  margin: 0 auto; }
+  .ali_section_contanier .ali_section_browse_categories_title {
+    margin-top: 80px;
+    gap: 10px; }
+    .ali_section_contanier .ali_section_browse_categories_title h1 {
+      font-weight: 600;
+      font-size: 38px;
+      line-height: 45.6px;
+      color: #ffffff; }
+  .ali_section_contanier .ali_section_browse_categories_cards {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column; }
+    .ali_section_contanier .ali_section_browse_categories_cards .ali_section_browse_categories_cards_second-four {
+      display: flex;
+      margin-top: 30px;
+      justify-content: space-between; }
+    .ali_section_contanier .ali_section_browse_categories_cards .ali_section_browse_categories_cards_art {
+      width: 240px;
+      height: 316px;
+      border-radius: 20px;
+      background-color: #3B3B3B;
+      transition: 0.3s; }
+      .ali_section_contanier .ali_section_browse_categories_cards .ali_section_browse_categories_cards_art:hover {
+        transform: scale(0.95);
+        cursor: pointer;
+        transition: 0.3s; }
+      .ali_section_contanier .ali_section_browse_categories_cards .ali_section_browse_categories_cards_art .ali_section_browse_categories_cards_text {
+        height: 76px;
+        padding: 20px 30px 25px 30px; }
+        .ali_section_contanier .ali_section_browse_categories_cards .ali_section_browse_categories_cards_art .ali_section_browse_categories_cards_text p {
+          font-weight: 600;
+          font-size: 22px;
+          line-height: 30.8px;
+          color: white; }
+    .ali_section_contanier .ali_section_browse_categories_cards .ali_section_browse_categories_cards_first-four {
+      display: flex;
+      justify-content: space-between; }
+
+.ali_section_discover_more_cards_btn_phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 315px;
+  height: 60px;
+  gap: 12px;
+  border: 2px solid #A259FF;
+  border-radius: 20px;
+  background-color: transparent;
+  padding: 0px 50px 0px 50px;
+  visibility: hidden; }
+  .ali_section_discover_more_cards_btn_phone p {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF; }
+  .ali_section_discover_more_cards_btn_phone .img {
+    width: 20px; }
+
+#ali_section_discover_more {
+  padding: 40px 0px 60px 0px; }
+  @media screen and (max-width: 1280px) {
+    #ali_section_discover_more .ali_section_contanier {
+      width: 690px;
+      margin: 0 auto; }
+    #ali_section_discover_more .ali_section_discover_more_head {
+      width: 100%;
+      padding-top: 40px; }
+      #ali_section_discover_more .ali_section_discover_more_head .ali_section_discover_more_head_text {
+        width: 403px; }
+        #ali_section_discover_more .ali_section_discover_more_head .ali_section_discover_more_head_text h3 {
+          font-size: 28px; }
+        #ali_section_discover_more .ali_section_discover_more_head .ali_section_discover_more_head_text p {
+          font-size: 16px;
+          display: flex;
+          align-items: flex-end; }
+      #ali_section_discover_more .ali_section_discover_more_head button {
+        width: 187px;
+        height: 60px; }
+    #ali_section_discover_more .ali_section_discover_more_cards {
+      width: 100%;
+      margin-top: 40px;
+      margin-bottom: 80px;
+      padding: 0;
+      gap: 30px; }
+      #ali_section_discover_more .ali_section_discover_more_cards .thirdcard {
+        display: none; } }
+  @media screen and (max-width: 830px) {
+    #ali_section_discover_more #ali_section_discover_more {
+      padding: 40px 0px 60px 0px; }
+    #ali_section_discover_more .ali_section_discover_more_head button {
+      display: none; }
+    #ali_section_discover_more .ali_section_discover_more_cards_btn_phone {
+      visibility: visible; }
+    #ali_section_discover_more .ali_section_contanier {
+      width: 315px;
+      margin: 0 auto; }
+    #ali_section_discover_more .ali_section_discover_more_head {
+      width: 100%; }
+      #ali_section_discover_more .ali_section_discover_more_head button {
+        bottom: 40px; }
+    #ali_section_discover_more .ali_section_discover_more_cards {
+      margin-bottom: 40px;
+      width: 100%;
+      column-gap: 20px;
+      display: flex;
+      flex-wrap: wrap; }
+      #ali_section_discover_more .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard {
+        width: 100%;
+        height: 402px; }
+        #ali_section_discover_more .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_fristPic {
+          width: 100%;
+          height: 238px; }
+      #ali_section_discover_more .ali_section_discover_more_cards .thirdcard {
+        display: block; } }
+
+.ali_section_discover_more_head {
+  transition: 0.3s;
+  padding-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end; }
+  .ali_section_discover_more_head .ali_section_discover_more_head_text {
+    width: 763px; }
+    .ali_section_discover_more_head .ali_section_discover_more_head_text h3 {
+      font-weight: 600;
+      font-size: 38px;
+      color: #FFFFFF;
+      line-height: 45.6px;
+      margin-bottom: 10px; }
+    .ali_section_discover_more_head .ali_section_discover_more_head_text p {
+      font-weight: 400;
+      font-size: 22px;
+      line-height: 35.2px;
+      color: #FFFFFF; }
+  .ali_section_discover_more_head button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 187px;
+    height: 60px;
+    border-radius: 20px;
+    border: 2px solid #A259FF;
+    gap: 12px;
+    border-color: #A259FF;
+    background-color: transparent; }
+    .ali_section_discover_more_head button p {
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 16px; }
+    .ali_section_discover_more_head button img {
+      width: 20px;
+      height: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+
+.ali_section_discover_more_cards {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between; }
+  .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard {
+    width: 330px;
+    height: 469px;
+    border-radius: 20px;
+    transition: 0.3s;
+    background-color: #3B3B3B; }
+    .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard img {
+      width: 100%;
+      height: 296px; }
+    .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom {
+      height: 173px;
+      width: 100%;
+      display: flex;
+      flex-direction: column; }
+      .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom .ali_section_discover_more_cards_firstCard_bottom_user {
+        width: 270px;
+        margin: 0 auto;
+        margin-top: 20px; }
+        .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom .ali_section_discover_more_cards_firstCard_bottom_user h5 {
+          font-weight: 600;
+          font-size: 22px;
+          color: #FFFFFF;
+          line-height: 30.8px;
+          width: 270px;
+          margin: 0 auto; }
+      .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom .ali_section_discover_more_cards_firstCard_bottom_user_nick {
+        display: flex;
+        align-items: center;
+        width: 270px;
+        margin: 0 auto;
+        margin-top: 5px; }
+        .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom .ali_section_discover_more_cards_firstCard_bottom_user_nick img {
+          width: 24px;
+          height: 24px; }
+        .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom .ali_section_discover_more_cards_firstCard_bottom_user_nick span {
+          margin-left: 12px;
+          font-weight: 400;
+          font-size: 16px;
+          color: #FFFFFF; }
+      .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom .ali_section_discover_more_cards_firstCard_bottom_value {
+        width: 270px;
+        margin: 0 auto;
+        margin-top: 25px;
+        margin-left: 30px;
+        display: flex;
+        justify-content: space-between; }
+        .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom .ali_section_discover_more_cards_firstCard_bottom_value .ali_section_discover_more_cards_firstCard_bottom_value_left {
+          width: 135px; }
+        .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom .ali_section_discover_more_cards_firstCard_bottom_value p:first-child {
+          margin-bottom: 8px;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 13.2px;
+          color: #858584; }
+        .ali_section_discover_more_cards .ali_section_discover_more_cards_firstCard .ali_section_discover_more_cards_firstCard_bottom .ali_section_discover_more_cards_firstCard_bottom_value p:last-child {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22.4px;
+          color: #FFFFFF; }
+
+#ali_section_magic_mush {
+  background-image: url("../scss/pages/nft-background.png");
+  background-position: 50% 50%;
+  background-size: cover;
+  object-fit: cover;
+  align-self: stretch;
+  mix-blend-mode: normal;
+  width: 100%;
+  height: 640px;
+  display: flex;
+  align-items: flex-end;
+  background-color: rgba(162, 89, 255, 0.4); }
+  #ali_section_magic_mush .ali_section_magic_mush_main {
+    height: 220px;
+    width: 1050px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end; }
+    #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left {
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left .ali_section_magic_mush_main_left_usercard {
+        width: 151px;
+        height: 44px;
+        border-radius: 20px;
+        background-color: #3B3B3B;
+        gap: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer; }
+        #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left .ali_section_magic_mush_main_left_usercard span {
+          color: #FFFFFF;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22.4px; }
+        #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left .ali_section_magic_mush_main_left_usercard img {
+          width: 24px; }
+      #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left h2 {
+        font-weight: 600;
+        font-size: 51px;
+        line-height: 110%;
+        color: #ffffff; }
+      #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #ffffff;
+        width: 198px;
+        height: 60px;
+        border-radius: 20px;
+        gap: 12px;
+        border: none; }
+        #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left button img {
+          width: 20px;
+          height: 20px; }
+        #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left button span {
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 22.4px;
+          text-align: center; }
+    #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_time {
+      width: 295px;
+      height: 144px;
+      border-radius: 20px;
+      gap: 10px;
+      background-color: rgba(59, 59, 59, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_time .ali_section_magic_mush_main_time_clock_text {
+        display: flex;
+        width: 235px;
+        margin: 0 auto; }
+        #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_time .ali_section_magic_mush_main_time_clock_text p {
+          display: flex;
+          justify-content: start;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 13.2px;
+          color: #FFFFFF; }
+      #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_time .ali_section_magic_mush_main_time_clock {
+        display: flex;
+        width: 235px;
+        margin: 0 auto;
+        justify-content: space-between; }
+        #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_time .ali_section_magic_mush_main_time_clock h4 {
+          display: flex;
+          justify-content: center;
+          width: 18px;
+          height: 39px;
+          font-weight: 400;
+          font-size: 28px;
+          line-height: 140%;
+          color: #FFFFFF; }
+        #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_time .ali_section_magic_mush_main_time_clock #ali_section_magic_mush_main_time_clock_hours {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: 61px; }
+          #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_time .ali_section_magic_mush_main_time_clock #ali_section_magic_mush_main_time_clock_hours h3 {
+            font-weight: 700;
+            font-size: 38px;
+            line-height: 120%;
+            color: #FFFFFF; }
+          #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_time .ali_section_magic_mush_main_time_clock #ali_section_magic_mush_main_time_clock_hours span {
+            font-weight: 400;
+            font-size: 12px;
+            color: #FFFFFF;
+            line-height: 110%; }
+  @media screen and (max-width: 1280px) {
+    #ali_section_magic_mush .ali_section_contanier {
+      width: 670px;
+      margin: 0 auto; }
+    #ali_section_magic_mush .ali_section_magic_mush_main {
+      width: 670px; }
+      #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left {
+        width: 670px !important;
+        height: 210px; }
+        #ali_section_magic_mush .ali_section_magic_mush_main .ali_section_magic_mush_main_left h2 {
+          font-size: 38px; } }
+
+.timeClock {
+  display: none !important; }
+
+@media screen and (max-width: 830px) {
+  .button_phone {
+    width: 315px !important; }
+  .ali_section_magic_mush_main_time {
+    width: 315px !important; }
+  .ali_section_contanier {
+    width: 315px !important;
+    margin: 0 auto; }
+  .ali_section_magic_mush_main {
+    width: 315px !important; }
+    .ali_section_magic_mush_main .ali_section_magic_mush_main_left {
+      width: 315px !important;
+      height: 210px; }
+      .ali_section_magic_mush_main .ali_section_magic_mush_main_left h2 {
+        font-size: 38px;
+        width: 315px !important; }
+  .ali_section_magic_mush_main_left {
+    width: 315px;
+    margin: 0 auto; }
+    .ali_section_magic_mush_main_left .ali_section_magic_mush_main {
+      width: 100%; }
+  .timeClockBig {
+    display: none !important; }
+  .timeClock {
+    display: block !important; }
+  .ali_section_magic_mush_main_left {
+    height: 430px !important; }
+    .ali_section_magic_mush_main_left h2 {
+      width: 315px !important; } }
 
 #app__artist__userinfo {
   background-color: #202020;
